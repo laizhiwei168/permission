@@ -8,9 +8,12 @@ import org.springframework.web.servlet.ModelAndView;
 @RequestMapping("/admin")
 public class AdminController {
 
+    // 跳转登陆页面
     @RequestMapping("index.page")
     public ModelAndView index(){
         return new ModelAndView("admin.jsp");
     }
+
+
 
 }
