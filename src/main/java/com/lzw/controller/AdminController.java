@@ -12,4 +12,5 @@ public class AdminController {
     public ModelAndView index(){
         return new ModelAndView("admin.jsp");
     }
+
 }
